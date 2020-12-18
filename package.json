@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rowansays/jsHelpers/issues"
   },
-  "homepage": "https://github.com/rowansays/jsHelpers#readme"
+  "homepage": "https://github.com/rowansays/jsHelpers#readme",
+  "devDependencies": {
+    "standard": "16.0.3"
+  }
 }

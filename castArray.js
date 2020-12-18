@@ -20,9 +20,9 @@ export function castArray (aught, filter) {
   if (typeof aught.forEach === 'function') {
     aught.forEach(x => { maybePush(filter, output, x) })
   } else if (Symbol.iterator in Object(aught)) {
-    for (let x of aught) { maybePush(filter, output, x) }
+    for (const x of aught) { maybePush(filter, output, x) }
   } else {
-    for (let x in aught) { maybePush(filter, output, aught[x]) }
+    for (const x in aught) { maybePush(filter, output, aught[x]) }
   }
 
   return output

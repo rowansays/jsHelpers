@@ -4,7 +4,8 @@
   "description": "Library of helper functions.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
+    "test.w": "NODE_OPTIONS=--experimental-vm-modules npx jest --watch"
   },
   "repository": {
     "type": "git",

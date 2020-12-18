@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Library of helper functions.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
     "test.w": "NODE_OPTIONS=--experimental-vm-modules npx jest --watch"
